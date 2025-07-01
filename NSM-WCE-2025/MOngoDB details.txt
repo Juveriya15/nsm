@@ -1,0 +1,5 @@
+
+username: juveriyamujawar
+pass: aebJjPF6IjqW9dUe
+
+mongodb+srv://juveriyamujawar:<db_password>@cluster0.es3dea9.mongodb.net/
