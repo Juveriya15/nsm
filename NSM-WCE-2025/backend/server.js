@@ -35,6 +35,10 @@ app.use("/api/sisternodal", sisternodalRoutes);
 const eventsRoutes=require("./routes/events")
 app.use("/api/events",eventsRoutes)
 
+app.get("/api/ping", (req, res) => {
+  res.status(200).send("Pong");
+});
+
 mongoose.connect(process.env.MONGO_URI, {
   serverSelectionTimeoutMS: 5000, 
 })
